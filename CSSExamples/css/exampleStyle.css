@@ -5,3 +5,7 @@
 .active + a{
     background-color: darkcyan;
 }
+
+.active ~ a{
+    font-weight: bold;
+}
