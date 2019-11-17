@@ -21,3 +21,6 @@ a{
 [target="_blank"]{
     color: green;
 }
+*{
+    font-weight: normal;
+}
