@@ -1,0 +1,15 @@
+a:visited {
+    color: brown;
+}
+
+a:hover{
+    background-color: fuchsia;
+}
+
+a:active{
+    background-color: teal;
+}
+
+a:focus{
+    background-color: lightcoral;
+}
