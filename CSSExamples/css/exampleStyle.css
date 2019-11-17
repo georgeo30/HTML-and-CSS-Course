@@ -9,3 +9,7 @@
 .active ~ a{
     font-weight: bold;
 }
+
+main p{
+    color: green;
+}
