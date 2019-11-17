@@ -5,9 +5,17 @@ p{
     font-weight: bold;
     letter-spacing: 10px;
 }
+
+h1,h2{
+    text-decoration: underline;
+}
+
+p.something{
+    background-color: red;
+}
 h1{
     color: blue;
-}
+    }
 #first{
     color: yellow;
 }
