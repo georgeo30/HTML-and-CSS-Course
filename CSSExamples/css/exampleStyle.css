@@ -13,3 +13,7 @@
 main p{
     color: green;
 }
+
+main >p{
+    text-decoration: underline;
+}
