@@ -1,0 +1,14 @@
+
+/* These are my notes */
+#some{
+    color: red;
+}
+.more-space{
+    letter-spacing: 2px;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
