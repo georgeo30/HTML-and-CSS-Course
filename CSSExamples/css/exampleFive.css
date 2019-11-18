@@ -1,0 +1,7 @@
+.bg{
+    padding: 10px;
+    border: 2px solid orange;
+    background-color: blue;
+    background-image: url(../photo-1574023508990-63ac02a4ae38.jpg);
+    background-size: cover;
+}
