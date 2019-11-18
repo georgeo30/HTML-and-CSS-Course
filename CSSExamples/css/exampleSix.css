@@ -1,0 +1,15 @@
+.bg{
+    width: 50%;
+    padding: 10px;
+    border: black solid 3px;
+    background: darksalmon;
+}
+
+/* Absolute units - doesnt depend on anything
+relative units- doesnt depend on anything
+
+widely used ones:   px
+                    em -scale up or down depending on the font size
+                    rem
+                    % - relative to the parent.
+*/
