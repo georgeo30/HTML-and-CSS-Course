@@ -1,0 +1,17 @@
+body{
+    /* back up fonts if the front of hierarchy doesnt work */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.more-space{
+    letter-spacing: 2px;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
