@@ -20,6 +20,9 @@ main{
     padding: 5px;
     padding-top: 20px;
     padding-bottom: 50px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #000000;
 }
 footer{
     background-color: cornflowerblue;
