@@ -1,11 +1,23 @@
+body{
+    background-color: #4c4c4c;
+    margin: 0px;
+}
+
 header{
     background-color: burlywood;
     padding: 20px;
-    margin: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
 }
 main{
     background-color: cadetblue;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 footer{
     background-color: cornflowerblue;
+    padding: 20px;
 }
