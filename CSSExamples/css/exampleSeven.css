@@ -23,6 +23,8 @@ main{
     border-width: 5px;
     border-style: dashed;
     border-color: #000000;
+    width: 500px;
+    height: 500px;
 }
 footer{
     background-color: cornflowerblue;
