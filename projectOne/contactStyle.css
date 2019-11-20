@@ -3,6 +3,22 @@ body{
     margin: 0;
     background: #34495e;
 }
+.heading{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    color: #f1f1f1;
+    
+    padding: 10px;
+    
+    text-align: center;
+    font-size: 70px;
+    
+;
+
 .middle{
     position: absolute;
     top: 50%;
