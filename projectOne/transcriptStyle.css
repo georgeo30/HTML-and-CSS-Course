@@ -37,6 +37,7 @@ body{
     width: 600px;
     border-radius: 8px;
     overflow: hidden;
+    margin: 50px;
 }
 
 .item{
@@ -95,4 +96,6 @@ body{
 }
 .item:target .smenu{
     max-height: 10em;
+    overflow-y: auto;
+    
 }
