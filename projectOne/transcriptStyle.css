@@ -5,12 +5,31 @@
     list-style: none;
     text-decoration: none;
 }
+.heading{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    color: #f1f1ff;
+    
+    padding: 10px;
+    
+    text-align: center;
+    font-size: 70px;
+    
+    font-family: sans-serif;
+    width: 50%;
+    /* background: #f1f1ff; */
+    border-radius: 30% 50%;
+}
 body{
     background: #34495e;
 }
 .middle{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
 }

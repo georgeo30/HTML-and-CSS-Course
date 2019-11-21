@@ -5,7 +5,7 @@ body{
 }
 .heading{
     position: absolute;
-    top:20%;
+    top:13%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -17,7 +17,7 @@ body{
     text-align: center;
     font-size: 70px;
     
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
     width: 50%;
     /* background: #f1f1ff; */
     border-radius: 30% 50%;
