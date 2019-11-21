@@ -15,20 +15,21 @@ body{
     transform: translate(-50%,-50%);
 }
 .menu{
-    width: 300px;
+    width: 600px;
     border-radius: 8px;
     overflow: hidden;
 }
 
 .item{
-    border-top:1px solid #3498db ;
+    border-top:1px solid #34495e ;
     overflow: hidden;
 }
 .button{
     display: block;
     padding: 16px 20px;
-    background: #3498db;
-    color: white;
+    background: #f1f1f1;
+    color: #34495e;
+    font-size: 20px;
     position: relative;
 }
 .button:before{
@@ -36,7 +37,7 @@ body{
     position: absolute;
     width: 14px;
     height: 14px;
-    background: #3498db;
+    background: #f1f1f1;
     left: 20px;
     bottom: -7px;
     transform: rotate(45deg);
@@ -52,7 +53,7 @@ body{
 .smenu a{
     display: block;
     padding: 16px 26px;
-    color: white;
+    color: #f1f1f1;
     font-size: 14px;
     margin: 4px 0;
     position: relative;
@@ -62,7 +63,7 @@ body{
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #3498db;
+    background: #f1f1f1;
     left: 0;
     right: 0;
     top: 0;
@@ -71,7 +72,7 @@ body{
 }
 
 .smenu a:hover:before{
-    opacity: 1;
+    opacity: 2;
 }
 .item:target .smenu{
     max-height: 10em;
