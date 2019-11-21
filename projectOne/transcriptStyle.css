@@ -5,7 +5,9 @@
     list-style: none;
     text-decoration: none;
 }
-
+body{
+    background: #34495e;
+}
 .middle{
     position: absolute;
     top: 50%;
