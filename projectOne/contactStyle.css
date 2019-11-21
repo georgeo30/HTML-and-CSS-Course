@@ -10,14 +10,17 @@ body{
     transform: translate(-50%, -50%);
     
     
-    color: #f1f1f1;
+    color: #2c3e50;
     
     padding: 10px;
     
     text-align: center;
     font-size: 70px;
     
-;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 50%;
+    background: #f1f1ff;
+    border-radius: 30% 50%;
 }
 .middle{
     position: absolute;
