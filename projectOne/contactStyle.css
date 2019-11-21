@@ -1,27 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
 body{
     padding: 0;
     margin: 0;
     background: #34495e;
 }
+header{
+    box-sizing: border-box;
+    height: 30px;
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+.navBar_links{
+    list-style: none;
+}
+.navBar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navBar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}.navBar_links li a{
+    transition: all 0.3s ease 0s;
+}
+.navBar_links li a:hover{
+    color: #f39c12;
+}
+button{
+    padding: 9px 25px;
+    color: #f39c12;
+    background-color: #34495e;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f39c12;
+    color: #34495e;
+}
 .heading{
     position: absolute;
-    top:13%;
+    top:25%;
     left: 50%;
     transform: translate(-50%, -50%);
     
     
-    color: #f1f1ff;
+    color: #f1f1f1;
     
     padding: 10px;
     
     text-align: center;
     font-size: 70px;
     
-    font-family: sans-serif;
+    
     width: 50%;
     /* background: #f1f1ff; */
     border-radius: 30% 50%;
 }
+
 .middle{
     position: absolute;
     top: 50%;
@@ -75,8 +130,8 @@ body{
 }
 
 .phone:hover > .phoneButton{
-    background:#f1f1f1;
-    color: #34495e;
+    color:#f39c12;
+    background: #34495e;
 }
 .phoneButton >i{
     font-size: 25px;
@@ -142,8 +197,8 @@ body{
 }
 
 .email:hover > .emailButton{
-    background:#f1f1f1;
-    color: #34495e;
+    color:#f39c12;
+    background: #34495e;
 }
 .emailButton >i{
     font-size: 25px;

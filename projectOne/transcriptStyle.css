@@ -1,13 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Montserrat",sans-serif;
     list-style: none;
     text-decoration: none;
 }
+header{
+    box-sizing: border-box;
+    height: 30px;
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+.navBar_links{
+    list-style: none;
+}
+.navBar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navBar_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}.navBar_links li a{
+    transition: all 0.3s ease 0s;
+}
+.navBar_links li a:hover{
+    color: #f39c12;
+}
+button{
+    padding: 9px 25px;
+    color: #f39c12;
+    background-color: #34495e;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f39c12;
+    color: #34495e;
+}
+
+
+
 .heading{
     position: absolute;
-    top:20%;
+    top:25%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -19,7 +67,7 @@
     text-align: center;
     font-size: 70px;
     
-    font-family: sans-serif;
+    
     width: 50%;
     /* background: #f1f1ff; */
     border-radius: 30% 50%;
@@ -29,12 +77,12 @@ body{
 }
 .middle{
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .menu{
-    width: 600px;
+    width: 700px;
     border-radius: 8px;
     overflow: hidden;
     margin: 50px;
@@ -83,7 +131,7 @@ body{
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #f1f1f1;
+    background: #f39c12;
     left: 0;
     right: 0;
     top: 0;
@@ -92,13 +140,15 @@ body{
 }
 
 .smenu a:hover:before{
-    opacity: 2;
+    opacity: 1;
 }
+
 .item:target .smenu{
-    max-height: 10em;
+    max-height: 8em;
     overflow-y: auto;
     
 }
+
 .button img{
     margin-right: 10px;
 }
