@@ -99,3 +99,6 @@ body{
     overflow-y: auto;
     
 }
+.button img{
+    margin-right: 10px;
+}
