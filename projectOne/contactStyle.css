@@ -53,10 +53,11 @@ button{
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
-button:hover{
+button{
     background-color: #f39c12;
     color: #34495e;
 }
+
 .heading{
     position: absolute;
     top:25%;
